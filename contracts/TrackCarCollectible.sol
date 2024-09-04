@@ -8,7 +8,7 @@ contract TrackCarCollectible is ERC1155, Ownable {
     uint256 public constant MY_NFT = 1;
     uint256 public constant MAX_SUPPLY = 3000;
 
-    constructor() ERC1155("https://drive.google.com/file/d/1rpQDHj87I4QU2cItPNlBDE8gXb7kNWPN/view?usp=drive_link") Ownable(msg.sender) {
+    constructor() ERC1155("https://drive.google.com/file/d/1vq7s1XhxWkW_J0ysRIvpUBa-PkCKLWcq/view?usp=drive_link") Ownable(msg.sender) {
         _mint(msg.sender, MY_NFT, MAX_SUPPLY, "");
     }
 

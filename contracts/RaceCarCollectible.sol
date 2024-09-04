@@ -8,7 +8,7 @@ contract RaceCarCollectible is ERC1155, Ownable {
     uint256 public constant MY_NFT = 1;
     uint256 public constant MAX_SUPPLY = 3000;
 
-    constructor() ERC1155("https://drive.google.com/file/d/1TxSqLGZoBn1OJDf1o3pmcjaMMZKaQFVE/view?usp=drive_link") Ownable(msg.sender) {
+    constructor() ERC1155("https://drive.google.com/file/d/1Zw5EJ5Bs18wMR63dRuOkCQy3BEKrpJ_Q/view?usp=sharing") Ownable(msg.sender) {
         _mint(msg.sender, MY_NFT, MAX_SUPPLY, "");
     }
 

@@ -8,7 +8,7 @@ contract SportCarCollectible is ERC1155, Ownable {
     uint256 public constant MY_NFT = 1;
     uint256 public constant MAX_SUPPLY = 3000;
 
-    constructor() ERC1155("https://drive.google.com/file/d/1_4g5TfcVCyg1ny_z0WxyXb1-VmfTJjQa/view?usp=sharing") Ownable(msg.sender) {
+    constructor() ERC1155("https://drive.google.com/file/d/1hflLyhrlpSnRTBo10fsfY9xl_FOleKcH/view?usp=sharing") Ownable(msg.sender) {
         _mint(msg.sender, MY_NFT, MAX_SUPPLY, "");
     }
 
